@@ -1,14 +1,9 @@
 // beauty of functional programming
 
+// higher order function that takes "function" as its argument
 
-Array.prototype.reject = function (fn) {
-    console.log(fn)
-    console.log(this.filter(x => !fn(x)))
-    return this.filter(x => !fn(x))
-}
-
-
-
+Array.prototype.reject = function (fn) { return this.filter(x => !fn(x)) }
+ 
 var animals = [
     { name: 'Fluffykins', species: 'rabbit' },
     { name: 'Caro', species: 'dog' },
@@ -17,6 +12,7 @@ var animals = [
     { name: 'Ursula', species: 'cat' },
     { name: 'Jimmy', species: 'fish' }
 ];
+
 
 
 var isDog = function (animal) {
