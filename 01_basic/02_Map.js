@@ -7,7 +7,8 @@
 // filter will verify the condition "true" or "false" based on the condition the object will be returned 
 
 
-// map will return fully transformed object totally new object
+// map will return fully transformed object totally new object remember the resulted array will be of same length ok
+
 
 
 

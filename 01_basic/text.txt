@@ -1,0 +1,6 @@
+test1 tester  mental  iron  50  0 
+test1 tester  mental1  iron0  50  0 
+test1 tester  mental2  iron0  50  0 
+test2 tester  mental  iron  50  0 
+test2 tester  mental1  iron0  50  0 
+test2 tester  mental2  iron0  50  0 

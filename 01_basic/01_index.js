@@ -3,7 +3,7 @@
 // higher order function that takes "function" as its argument
 
 Array.prototype.reject = function (fn) { return this.filter(x => !fn(x)) }
- 
+
 var animals = [
     { name: 'Fluffykins', species: 'rabbit' },
     { name: 'Caro', species: 'dog' },
