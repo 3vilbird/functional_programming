@@ -30,6 +30,12 @@ let makeFun = (categories, parent) => {
         .forEach(c => node[c.id] = makeFun(categories, c.id)
         );
 
+    // if (Object.keys(node).length > 0)
+    //     return node;
+    // else
+    // return
+
+
     return node;
 }
 
